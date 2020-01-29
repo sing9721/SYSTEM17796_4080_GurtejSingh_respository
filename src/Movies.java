@@ -7,6 +7,10 @@ public class Movies
    
     private String StudentDemo;
 
+    public Movies(String StudentDemo) {
+        this.StudentDemo = StudentDemo;
+    }
+
     public String getStudentDemo() {
         return StudentDemo;
     }
